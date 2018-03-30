@@ -1,0 +1,231 @@
+@font-face {
+    font-family: "Ionicons";
+    src: url("https://code.ionicframework.com/ionicons/2.0.1/fonts/ionicons.eot?v=2.0.1");
+    src: url("https://code.ionicframework.com/ionicons/2.0.1/fonts/ionicons.eot?v=2.0.1#iefix") format("embedded-opentype"), url("https://code.ionicframework.com/ionicons/2.0.1/fonts/ionicons.ttf?v=2.0.1") format("truetype"), url("https://code.ionicframework.com/ionicons/2.0.1/fonts/ionicons.woff?v=2.0.1") format("woff"), url("https://code.ionicframework.com/ionicons/2.0.1/fonts/ionicons.svg?v=2.0.1#Ionicons") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    overflow-x: hidden;
+    width: 100%;
+}
+
+.title {
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    color: #022d1f;
+    padding: 15px;
+    padding-bottom: 0px;
+}
+
+hr {
+    margin-top: 0rem !important;
+    margin-bottom: 0rem !important;
+    border: 0;
+    border-top: 1px solid rgba(2, 45, 31, 1);
+}
+
+.container-fluid {
+    width: 100%;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    overflow-x: hidden;
+}
+
+.title-container {
+    background-color: #3cfcbf;
+    background-image:url('../images/tuduforapp.png');
+    padding: 12px;
+    background-repeat: no-repeat;
+    height: 70px;
+    background-position: center;
+    background-size:auto 70px;
+}
+
+.title-list {
+    font-size: 20px;
+    font-family: 'Nunito', sans-serif;
+    text-align: left;
+    color: #3cfcbf;
+    padding: 8px;
+    padding-bottom: 0px;
+}
+
+.title-list-container {
+    background-color: #022d1f;
+    padding: 3px;
+}
+
+.task {
+    list-style-type: none;
+    font-size: 20px;
+    padding: 15px;
+    margin-left: 0px !important;
+    border-bottom: 1px solid #022d1f;
+    transition: opacity .3s ease-out;
+}
+
+.list {
+    padding: 0;
+}
+
+.trash, .trash-shake{
+    display: inline;
+    position: absolute;
+    right: 10px;
+    width: 35px;
+    height: 35px;
+    margin-top: -35px;
+}
+
+.trash{
+    z-index:10;
+}
+
+.trash svg, .trash-shake svg{
+    position: absolute;
+    right: 10px;
+}
+
+.check, .check-shake{
+    display: inline;
+    position: absolute;
+    right: 30px;
+    width: 35px;
+    height: 35px;
+    margin-top: -35px;
+}
+
+.check{
+    z-index:10;
+}
+
+.check svg, .check-shake svg{
+    position: absolute;
+    right: 30px;
+}
+
+.markTaskIcon {
+    display: inline;
+    transition: opacity .3s ease-out;
+}
+
+.deleteTaskIcon {
+    display: inline;
+    transition: opacity .3s ease-out;
+}
+
+.markTaskIcon svg {
+    position: absolute;
+    right: 80px;
+    margin-top: -48px;
+}
+
+.deleteTaskIcon svg {
+    position: absolute;
+    right: 20px;
+    margin-top: -48px;
+}
+
+.swipe-delete svg {
+    position: absolute;
+    right: 10px;
+    margin-top:13px;
+}
+
+.swipe-delete {
+    position: absolute;
+    right: -60px;
+    width: 60px;
+    height: 60px;
+    z-index:10;
+    background-color: #f44242;
+    margin-top: -61px;
+    transition: right .3s ease-out;
+    transition: width .4s ease-out;
+}
+
+.swipe-mark svg {
+    position: absolute;
+    right: 10px;
+    margin-top:13px;
+}
+
+.swipe-mark {
+    position: absolute;
+    right: -60px;
+    width: 60px;
+    height: 60px;
+    z-index:10;
+    background-color: #022d1f;
+    margin-top: -61px;
+    transition: right .3s ease-out;
+    transition: width .3s ease-out;
+}
+
+#overlay-before {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.1);
+    z-index: 50;
+}
+
+#overlay-after {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.1);
+    z-index: 50;
+}
+
+.floating{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    transition: bottom .2s ease-out;
+}
+
+.title-new-task{
+    padding:20px;
+}
+
+#form-dialog-title h2{
+    color: rgb(0, 62, 41);
+}
+
+.fixed {
+    position:fixed; 
+    top:0; 
+    width:100%;
+    z-index:1000;
+}
+
+.settings, .export{
+    display: inline;
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    
+}
+
+.settings{
+    top: 10px;   
+    left:5px;
+}
+
+.export{
+    top: 8px;
+    right:0px;
+}

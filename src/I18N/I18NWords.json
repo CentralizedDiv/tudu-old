@@ -1,0 +1,89 @@
+{
+    "Edit Task":{
+        "pt-br":"Editar Tarefa"
+    },
+    "Cancel":{
+        "pt-br":"Cancelar"    
+    },
+    "New Task":{
+        "pt-br":"Nova Tarefa"
+    },
+    "Add Task":{
+        "pt-br":"Adicionar Tarefa"
+    },
+    "Close":{
+        "pt-br":"Fechar"
+    },
+    "Back":{
+        "pt-br":"Voltar"
+    },
+    "Lists":{
+        "pt-br":"Listas"
+    },
+    "Add List":{
+        "pt-br":"Adicionar Lista"
+    },
+    "New List":{
+        "pt-br":"Nova Lista"
+    },
+    "Tasks And Lists copied to clipboard":{
+        "pt-br":"Tarefas e Listas copiadas para a área de transferência"
+    },
+    "Save":{
+        "pt-br":"Salvar"
+    },
+    "Settings":{
+        "pt-br":"Configurações"
+    },
+    "Language":{
+        "pt-br":"Idioma"
+    },
+    "Import Data":{
+        "pt-br":"Importar Dados"
+    },
+    "Import Tasks":{
+        "pt-br":"Importar Tarefas"
+    },
+    "Data":{
+        "pt-br":"Dados"
+    },
+    "Do you really want to remove this task permanently?":{
+        "pt-br":"Você realmente deseja remover esta tarefa permanentemente?"
+    },
+    "Invalid Format, please export your data from other tudu account":{
+        "pt-br":"Formato inválido, por favor exporte os dados de outra conta tudu"    
+    },
+    "Disagree":{
+        "pt-br":"Não"
+    },
+    "Agree":{
+        "pt-br":"Sim"
+    },
+    "Delete Task?":{
+        "pt-br":"Deletar Tarefa?"
+    },
+     "Delete List?":{
+        "pt-br":"Deletar Lista?"
+    },
+    "Do you really want to remove this list and its tasks permanently?":{
+        "pt-br":"Você realmente deseja remover esta lista e suas tarefas permanentemente?"
+    },
+    "Task Label":{
+        "pt-br":"Label da Tarefa"
+    },
+    "Task Description":{
+        "pt-br":"Descrição da Tarefa"
+    },
+    "Trash":{
+        "pt-br":"Lixeira"
+    },
+    "List Label":{
+        "pt-br":"Label da Lista"
+    },
+    "Done":{
+        "pt-br":"Finalizadas"
+    },
+    "% List(s) and % Task(s) Imported!":{
+        "pt-br":"% Listas e % Tarefas Importadas!"
+    }
+}
